@@ -16,7 +16,7 @@ export default function Home() {
       </div>
 
       <div className = "font-lg">
-        Resume
+        Resume name
       </div>
     </div>
   );

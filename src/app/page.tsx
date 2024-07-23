@@ -14,6 +14,10 @@ export default function Home() {
       <div className="flex justify-center">
         <h1>Portfolio</h1>
       </div>
+
+      <div className = "font-lg">
+        Resume
+      </div>
     </div>
   );
 }

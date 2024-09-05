@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Layout from '@/app/component/layout'
 import Hero from '@/app/component/home/hero'
 import Animation from '@/app/component/home/animation'
-
+import { TOKEN, DATABASE_ID } from "../config"
 
 export default function Home() {
   return (

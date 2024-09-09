@@ -32,10 +32,10 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) { 
     return (
-        <div className= "bg-primary">
+        <div className="flex flex-col min-h-screen bg-primary">
         <ThemeProvider attribute="class">
             <Header />
-                <div>{children}</div>
+            <main className="flex-grow"> {children} </main>
             <Footer />
         </ThemeProvider>
         </div>

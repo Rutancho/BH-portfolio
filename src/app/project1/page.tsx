@@ -22,12 +22,24 @@ const initialProjects: Project[] = [
   { 
     name: 'Blog', 
     link: 'https://github.com/Rutancho/Blog-practice-Oauth-.git',
-    imgSrc: '/image/Collection.jpg'  // 이미지 경로 추가
+    imgSrc: ''  // 이미지 경로 추가
   },
   { 
     name: 'First next.js', 
     link: 'https://github.com/Rutancho/Blog-practice-Oauth-.git',
-    imgSrc: '/image/Collection.jpg'  // 이미지 경로 추가
+    imgSrc: '/image/first.jpg'  // 이미지 경로 추가
+  },
+
+  {
+    name: 'Order-Management-System', 
+    link: 'https://github.com/Rutancho/Order-Management-System.git',
+    imgSrc: '/image/order.jpg'  // 이미지 경로 추가
+  },
+
+  {
+    name: 'Aid Management System', 
+    link: 'https://github.com/Rutancho/Inventory-Aid-Management.git', 
+    imgSrc: '/image/management.jpg'  // 이미지 경로 추가
   }
 ];
 
